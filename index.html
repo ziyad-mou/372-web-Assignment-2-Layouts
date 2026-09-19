@@ -5,7 +5,7 @@
   CSC 372-01
 
   This is the home page for the Campus Event Guide.
-  It introduces the site and provides navigation to campus event information.
+  It introduces the site and displays upcoming campus events.
 -->
 <html lang="en">
 
@@ -34,26 +34,182 @@
 
   <main>
 
-    <section>
+    <section id="hero">
       <h2>Find Your Next Campus Experience</h2>
+
       <p>
         Explore upcoming events and find new ways to connect with the campus community.
+        From music and sports to workshops and student activities, there is always
+        something happening on campus.
       </p>
-      <a href="#upcoming">View Upcoming Events</a>
+
+      <p>
+        <a href="#upcoming">View Upcoming Events</a>
+      </p>
+
+      <figure>
+        <img src="images/hero.jpg"
+             alt="Students enjoying activities at a campus event">
+        <figcaption>Discover events happening across campus.</figcaption>
+      </figure>
     </section>
 
     <section id="upcoming">
       <h2>Upcoming Events</h2>
+
+      <article class="event-card">
+        <img src="images/event-1.jpg"
+             alt="Students listening to live music outdoors">
+
+        <h3>Campus Music Night</h3>
+
+        <p>
+          <time datetime="2026-09-25T18:00">
+            September 25, 2026 at 6:00 PM
+          </time>
+        </p>
+
+        <p>Student Union Lawn</p>
+        <p>Category: Music</p>
+
+        <p>
+          Enjoy an evening of live music performed by student musicians
+          and local artists.
+        </p>
+
+        <a href="event.html">View Details</a>
+      </article>
+
+      <article class="event-card">
+        <img src="images/event-2.jpg"
+             alt="Students attending a technology workshop">
+
+        <h3>Technology Workshop</h3>
+
+        <p>
+          <time datetime="2026-09-28T15:00">
+            September 28, 2026 at 3:00 PM
+          </time>
+        </p>
+
+        <p>Science Building Room 204</p>
+        <p>Category: Education</p>
+
+        <p>
+          Learn useful technology skills and explore tools that can help
+          with class projects.
+        </p>
+
+        <a href="event.html">View Details</a>
+      </article>
+
+      <article class="event-card">
+        <img src="images/event-3.jpg"
+             alt="Students playing soccer on a campus field">
+
+        <h3>Student Soccer Tournament</h3>
+
+        <p>
+          <time datetime="2026-10-02T16:00">
+            October 2, 2026 at 4:00 PM
+          </time>
+        </p>
+
+        <p>Campus Recreation Field</p>
+        <p>Category: Sports</p>
+
+        <p>
+          Watch student teams compete in a friendly afternoon soccer tournament.
+        </p>
+
+        <a href="event.html">View Details</a>
+      </article>
+
+      <article class="event-card">
+        <img src="images/event-4.jpg"
+             alt="Students viewing artwork at a campus exhibition">
+
+        <h3>Student Art Exhibition</h3>
+
+        <p>
+          <time datetime="2026-10-06T12:00">
+            October 6, 2026 at 12:00 PM
+          </time>
+        </p>
+
+        <p>University Art Gallery</p>
+        <p>Category: Arts</p>
+
+        <p>
+          Explore paintings, photography, and other creative work made by students.
+        </p>
+
+        <a href="event.html">View Details</a>
+      </article>
+
+      <article class="event-card">
+        <img src="images/event-5.jpg"
+             alt="Students meeting representatives at a career fair">
+
+        <h3>Fall Career Fair</h3>
+
+        <p>
+          <time datetime="2026-10-10T10:00">
+            October 10, 2026 at 10:00 AM
+          </time>
+        </p>
+
+        <p>Student Center Ballroom</p>
+        <p>Category: Career</p>
+
+        <p>
+          Meet employers, explore career opportunities, and learn about internships.
+        </p>
+
+        <a href="event.html">View Details</a>
+      </article>
+
     </section>
 
     <section id="about">
       <h2>About the Campus Event Guide</h2>
+
+      <p>
+        The Campus Event Guide helps students discover activities taking place
+        around the university.
+      </p>
+
+      <p>
+        The guide provides useful event information so students can plan ahead
+        and become more involved in campus life.
+      </p>
+
+      <h3>What This Guide Provides</h3>
+
+      <ul>
+        <li>Information about upcoming campus events.</li>
+        <li>Dates, times, and locations in one place.</li>
+        <li>Opportunities to connect with the campus community.</li>
+      </ul>
     </section>
 
   </main>
 
   <footer>
     <p>&copy; 2026 Campus Event Guide</p>
+
+    <p>
+      Contact:
+      <a href="mailto:events@example.edu">events@example.edu</a>
+    </p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#upcoming">Upcoming Events</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
   </footer>
 
 </body>
