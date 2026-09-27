@@ -183,3 +183,27 @@
       padding: 15px;
     }
   }
+
+  /* Assignment 3 */
+
+.saved-event {
+  border: 3px solid #1f4e79;
+  background-color: #eef5fb;
+}
+
+.save-event-button {
+  background-color: #1f4e79;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 15px;
+}
+
+#saved-events {
+  border: 1px solid #cccccc;
+  padding: 20px;
+}
+
+#saved-events-list {
+  line-height: 2;
+}
